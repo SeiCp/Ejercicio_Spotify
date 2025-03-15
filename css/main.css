@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.logo {
+    width: 100px;
+    height: 29.6px;
+    display: block;
+}
+
+.img-menu {
+    width: 30px;
+}
