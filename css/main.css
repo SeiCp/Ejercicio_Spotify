@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    font-size:16px;
+    color:#1d1d1d;
 }
 
 .nav-bar {
@@ -22,4 +28,79 @@
 
 .img-menu {
     width: 30px;
+}
+
+.hero {
+    background-color:#509bf5;
+    padding: 120px 10px 40px 10px;
+    color:#ffffff;
+
+}
+
+h1{
+   font-size:2.2rem; 
+}
+
+.parrafo-hero{
+    margin:20px 0;
+    font-size: 1.2rem;
+ 
+}
+
+.boton-hero{
+    text-transform: uppercase;
+    background-color:#25b857;
+    width:100%;
+    display:block;
+    border-radius: 20px;
+    font-size:0.8rem;
+    text-align:center;
+    padding:10px;
+}
+
+.parrafo-terminos{
+    font-size:0.8rem;
+    margin-top:15px;
+}
+
+.contenedor{
+    padding:10px;
+}
+
+.contenedor h2{
+    text-align:center;
+    margin:25px;
+    font-size:1.8rem;
+}
+
+.caja-beneficios{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:20px;
+    alig
+    
+}
+
+.caja-beneficios-texto {
+    width:70%;
+    margin:15px;
+}
+.caja-beneficios img{
+    width:30%;
+    max-width: 100px;
+    margin-right:15px;
+}
+
+.caja-beneficios-texto h4 {
+    margin-bottom: 10px;
+}
+
+
+
+@media all and (min-width: 480px) and (max-width: 1000px){
+
+}
+
+@media all and (min-width: 1000px){
+    
 }
