@@ -1,0 +1,59 @@
+.header{
+  &__nav-bar{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+    &__logo{
+      width: 100px;
+      height: 29.6px;
+      display: block;
+    }
+
+    &__img-menu {
+      width: 30px;
+    }
+  }
+  
+  &__hero {
+    background-color:#509bf5;
+    padding: 120px 10px 40px 10px;
+    color:#ffffff;
+  
+    & h1{
+      font-size:2.2rem;
+     }
+
+     &__parrafo{
+      margin:20px 0;
+      font-size: 1.2rem;
+    
+    }
+
+    &__boton{
+      text-transform: uppercase;
+      background-color:#25b857;
+      width:100%;
+      display:block;
+      border-radius: 20px;
+      font-size:0.8rem;
+      text-align:center;
+      padding:10px;
+    }
+
+    &__parrafo-terminos{
+      font-size:0.8rem;
+      margin-top:15px;
+    }
+  }
+
+}
+
+
+
+
+
+
