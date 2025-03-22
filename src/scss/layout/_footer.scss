@@ -1,10 +1,36 @@
-@use '../core/variables' as vars;
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+    &__idioma{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        
+    
+        & img {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        & a {
+            font-size: 0.5rem;
+        }
+    }
+    
+    &__enlaces{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    
+   
 }
+
+.elementos {
+    width: 30%;
+}
+
